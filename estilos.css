@@ -1,9 +1,6 @@
 *{
     margin: 0px;
 }
-body {
-    
-}
 
 .container {
     height: 969px;
@@ -35,9 +32,27 @@ body {
     border-radius: 50%;
 }
 
+.retrato{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.retrato2{
+    height:80px;
+    width:120px;
+    background-color: black;
+    border-radius: 400px 400px 150px 150px;    
+    margin: auto;
+}
+
 .textoLateral{
     margin: auto;
     margin-top: 0px;
+    
 }
 
 /*Título*/
