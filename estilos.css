@@ -46,7 +46,7 @@
     height:80px;
     width:120px;
     background-color: black;
-    border-radius: 400px 400px 150px 150px;    
+    border-radius: 400px 400px 150px 150px;
     margin: auto;
 }
 
@@ -70,7 +70,14 @@
     font-size: 2em;
     font-family: 'Dosis', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
 
+.header p{
+    margin:auto;
+}
+
+.clik:checked + .aside{
+    background-color: #69BF97;
 }
 
 /*Contenido Principal*/

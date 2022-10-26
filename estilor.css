@@ -8,5 +8,10 @@
         grid-template-areas:"aside header" "aside Main";
     }
 
-    
+    .aside{
+        
+        font-size: 1em;
+    }
+
+        
 }
