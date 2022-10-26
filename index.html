@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="estilos.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" media="(max-width:320px)" href="css/estilor.css">
+    <link rel="stylesheet" media="(max-width:320px)" href="estilor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -14,10 +14,14 @@
 </head>
     <body>
         <div class="container">
+            <input type="checkbox" id="menu" class="clik" style="display: none">
             <!--Barra Lateral-->
             <div class="aside">
                 <div class="foto">
+                    
                     <div class="retrato"></div>
+                    
+                    
                     <div class="retrato2"></div>
                 </div>
                 <div class="textoLateral">
@@ -32,9 +36,13 @@
 
             <!--Título-->
             <div class="header">
-                <p style="margin: auto;">⬅</p>
+                <div style="margin: auto;">
+                    <label for="menu">
+                        <p class="icono">⬅</p>
+                    </label>
+                </div>
                 <img src="imag/logoSBlack.png" height=80% style="margin: auto;">
-                <p style="margin: auto;">🚪Log Out</p>
+                <p>🚪Log Out</p>
             </div>
 
             <!--Contenido Principal-->
