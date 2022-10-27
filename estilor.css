@@ -8,10 +8,30 @@
         grid-template-areas:"aside header" "aside Main";
     }
 
-    .aside{
-        
-        font-size: 1em;
+    .header{
+        width: 320px;
     }
+
+    .clik:checked + .aside{
+        display: none;    
+    }
+
+    .clik:checked + .aside ~.header{
+        position: absolute;
+    }
+
+    .logo{
+        width: 70%;
+    }
+    
+    .logout{
+        font-size: 0.7em;
+    }
+    
+    .aside{
+        font-size: 1em;       
+    }
+    
 
         
 }

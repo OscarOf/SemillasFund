@@ -76,10 +76,6 @@
     margin:auto;
 }
 
-.clik:checked + .aside{
-    background-color: #69BF97;
-}
-
 /*Contenido Principal*/
 .Main {
     grid-area: Main;
