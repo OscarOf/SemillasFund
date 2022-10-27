@@ -12,6 +12,11 @@
         width: 320px;
     }
 
+    .aside{
+        font-size: .8em;
+        height: 100%;       
+    }
+
     .clik:checked + .aside{
         display: none;    
     }
@@ -28,8 +33,14 @@
         font-size: 0.7em;
     }
     
-    .aside{
-        font-size: 1em;       
+    .foto{
+        height: 150px;
+        width: 150px;
+        
+    }
+
+    .textolateral{
+        margin-left: 50px;
     }
     
 
