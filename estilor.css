@@ -38,6 +38,10 @@
         position: absolute;
     }
 
+    .clik:checked + .aside ~.logo{
+        height: 50%;
+    }
+
     .logo{
         width: 70%;
     }
