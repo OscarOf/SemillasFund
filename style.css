@@ -1,0 +1,189 @@
+/* Barra negra */
+.container-typeuser{
+    display: flex;
+    justify-content: center;
+}
+
+.typeuser{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    width: 77%;
+    border-radius: 100px;
+    height: 37px;
+    align-items: center;
+}
+
+
+.typeuser img{
+    width: 31px;
+    margin-left: 3px;
+}
+.typeuser p{
+    font-size: 13px;
+}
+
+/* Contenedores de emociones */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.progress{
+    background-color: #D9D9D9;
+    width:70%;
+}
+.progress-bar{
+    background-color: rgb(125, 184, 138);
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+section{
+    text-align: center;
+}
+.emotion-enojo h2{
+    font-size: 28px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.progress2{
+    background-color: rgb(125, 184, 138);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.progress-bar2-1{
+    position: absolute;
+    top: -13px;
+    right: -17px;
+    width: 100%;
+    font-size: 52px;
+}
+.progress-bar2-2{
+    position: absolute;
+    top: -13px;
+    right: 18px;
+    width: 100%;
+    font-size: 52px;
+}
+.progress-bar2-3{
+    position: absolute;
+    width: 100%;
+    right: -6px;
+    top: 43px;
+    transform: rotate(90deg);
+    font-size: 61px;
+}
+
+.emotion-alegria h2{
+    font-size: 28px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.progress3{
+    background-color: #D9D9D9;
+    width: 37px;
+    height: 200px;
+}
+.progress-bar3{
+    background-color: rgb(125, 184, 138);
+    height: 10%;
+    margin-top: 180px;
+}
+.emotion-tristeza h2{
+    font-size: 28px;
+}
+
+@media (min-width: 640px) {
+        /* Tamaños para Mobile */
+    .typeuser{
+        height: 44px;
+    }
+    .typeuser img{
+        width: 40px;
+    }
+    .typeuser p:nth-child(1){
+        font-size: 21px;
+    }
+    .typeuser p:nth-child(2){
+        margin-right: 10px;
+    }
+    .container-typeuser{
+        margin-bottom: 52px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    /* Tamaños para Desktop */
+    .progress2{
+        background-color: rgb(125, 184, 138);
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+    
+    .progress-bar2-1{
+        position: absolute;
+        top: -8px;
+        right: 26px;
+        width: 100%;
+        font-size: 74px;
+    }
+    .progress-bar2-2{
+        position: absolute;
+        top: -8px;
+        right: -20px;
+        width: 100%;
+        font-size: 74px;
+    }
+    .progress-bar2-3{
+        position: absolute;
+        width: 100%;
+        right: -10px;
+        top: 64px;
+        transform: rotate(90deg);
+        font-size: 95px;
+    }
+    .progress3{
+        background-color: #D9D9D9;
+        width: 4%;
+        height: 200px;
+    }
+    .container-typeuser{
+        justify-content: start;
+    }
+    .emotion-tristeza h2{
+        font-size: 40px;
+    }
+    .emotion-enojo h2{
+        font-size: 40px;
+    }
+    .emotion-alegria h2{
+        font-size: 40px;
+    }
+    .emotion-enojo p{
+        font-size: 21px;
+    }
+    .emotion-alegria p{
+        font-size: 21px;
+    }
+    .emotion-tristeza p{
+        font-size: 21px;
+    }
+    .progress-bar{
+        height: 26px;
+        align-items: center;
+    }
+    .progress{
+        height: 26px;
+    }
+}
