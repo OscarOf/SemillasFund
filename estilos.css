@@ -2,15 +2,6 @@
     margin: 0px;
 }
 
-.container {
-    height: 969px;
-    display: grid;
-    grid-template-columns: 0.3fr 1.6fr;
-    grid-template-rows: 0.2fr 1.7fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:"aside header" "aside Main";
-}
 
 /*Barra Lateral*/
 .aside {
@@ -346,11 +337,21 @@ button:hover{
 }
 #miedo h3{
     text-align: center;
+    margin-top: 7%;
 }
 #miedo p{
     padding-top: 10%;
 }
-
+#miedo .contenido{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+#miedo .porcentaje p{
+    text-align: center;
+}
 /*====================================TABLET=============================*/
 
 @media (min-width: 768px){
@@ -377,6 +378,10 @@ button:hover{
         border-right: 65px solid transparent;
         border-bottom: 105px solid #D9D9D9;
     }
+    #miedo .contenido{
+        width: 150px;
+        height: 40px;
+    }
 }
 /*================================DESKTOP================================*/
 @media (min-width: 1024px){
@@ -390,5 +395,9 @@ button:hover{
         border-left: 90px solid transparent;
         border-right: 90px solid transparent;
         border-bottom: 130px solid #D9D9D9;
+    }
+    #miedo .contenido{
+        width: 200px;
+        height: 40px;
     }
 }
