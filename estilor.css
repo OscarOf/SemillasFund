@@ -1,4 +1,8 @@
 @media(max-width:320px){
+    body{
+        width: 320px;
+    }
+
     .container {
         display: grid;
         grid-template-columns: 0.3fr 1.6fr;
@@ -8,10 +12,100 @@
         grid-template-areas:"aside header" "aside Main";
     }
 
-    .aside{
-        
-        font-size: 1em;
+    .header{
+        width: 320px;        
     }
 
+    .flecha{
+        display: none;
+    }
+
+    .eti{
+        display: block;
+    }
+
+    .aside{
+        font-size: .8em;
+        height: 100%;
+                
+    }
+
+    .clik:checked + .aside{
+        display: none;    
+    }
+
+    .clik:checked + .aside ~.header{
+        position: absolute;
+    }
+
+    .clik:checked + .aside ~.logo{
+        height: 50%;
+    }
+
+    .logo{
+        width: 70%;
+    }
+    
+    .logout{
+        font-size: 0.7em;
+    }
+    
+    .foto{
+        height: 150px;
+        width: 150px;
         
+    }
+
+    .textolateral{
+        margin-left: 20px;
+    }    
+}
+
+@media(max-width:768px){
+    
+    .container {
+        display: grid;
+        grid-template-columns: 0.3fr 1.6fr;
+        grid-template-rows: 0.2fr 1.7fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:"aside header" "aside Main";
+    }
+
+    .header{
+        width: 100%;        
+    }
+
+    .flecha{
+        display: none;
+    }
+
+    .eti{
+        display: block;
+    }
+
+    .aside{
+        font-size: .8em;
+        height: 100%;
+                
+    }
+
+    .clik:checked + .aside{
+        display: none;    
+    }
+
+    .clik:checked + .aside ~.header{
+        position: absolute;
+    }
+
+   
+    .logout{
+        font-size: 0.7em;
+    }
+
+    .foto{
+        height: 150px;
+        width: 150px;
+        
+    }
 }
