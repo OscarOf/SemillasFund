@@ -337,7 +337,7 @@ button:hover{
         grid-auto-flow: row;
         grid-template-areas:"aside header" "aside Main";
     }
-    .aside{
+    /*.aside{
         display: block;
     }
     /*==============================DESAGRADO============================*/
