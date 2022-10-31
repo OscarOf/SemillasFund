@@ -2,15 +2,6 @@
     margin: 0px;
 }
 
-.container {
-    height: 969px;
-    display: grid;
-    grid-template-columns: 0.3fr 1.6fr;
-    grid-template-rows: 0.2fr 1.7fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:"aside header" "aside Main";
-}
 
 /*Barra Lateral*/
 .aside {
@@ -99,4 +90,336 @@
 .Main {
     grid-area: Main;
     
+}
+/*===================================================================================================================================*/
+button{
+    border-radius: 20px;
+    width: 15vw;
+    height: 4vh;
+}
+button:hover{
+    background-color: #D9D9D9;
+}
+/*===========================FECHA======================================*/
+
+#fecha{
+    text-align: center;
+    margin: 10px;
+}
+#fecha h2{
+    margin-bottom: 10%;
+    margin-top: 7%;
+    font-size: 20px;
+}
+#fecha p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    text-align: justify;
+}
+/*===========================CAJA COMENTARIOS===========================*/
+#caja-comentarios{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+#caja-comentarios .caja{
+    width: 100%;
+    height: 25vh;
+    border: 1px solid ;
+    background-color: #D9D9D9;
+    padding-left: 5%;
+    color: rgba(0, 0, 0, 0.527);
+    font-size: 15px;
+}
+/*==========================RESULTADOS=================================*/
+#resultados .pendientes{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 15px;
+}
+#resultados button{
+    margin-top: 7%;
+    font-size: 15px;
+}
+#resultados hr{
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: #b3b2b233;
+}
+#resultados .calificacion{
+    text-align: center;
+    font-size: 15px;
+}
+#resultados .nota{
+    width: 40vw;
+    height: 15vh;
+    margin: auto;
+    border: 1px solid;
+    font-size: 6em;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+#resultados .calificacion p{
+    margin-top: 7%;
+}
+#resultados .nota p{
+    margin: auto;
+    margin-top: 4%;
+}
+
+/*=================================TABLET===============================*/
+@media (min-width: 768px){
+    button{
+        width: 20vw;
+        height: 5vh;
+    }
+    /*===========================FECHA=================================*/
+    
+    #fecha h2{
+        font-size: 28px;
+    }
+    #fecha p{
+        font-size: 18px;
+    }
+    /*===========================CAJA COMENTARIOS======================*/
+    #caja-comentarios .caja{
+        font-size: 18px;
+    }
+    /*===========================RESULTADOS============================*/
+    #resultados .pendientes{
+        font-size: 18px;
+    }
+    #resultados button{
+        font-size: 18px;
+    }
+    #resultados .calificacion{
+        font-size: 18px;
+    }
+    #resultados .nota p{
+        margin-top: 2%;
+    }
+    
+}
+/*=============================DESKTOP=================================*/
+@media (min-width: 1024px){
+    button{
+        width: 25vw;
+        height: 5vh;
+    }
+    /*===========================FECHA=================================*/
+    
+    #fecha h2{
+        font-size: 32px;
+    }
+    #fecha p{
+        font-size: 20px;
+    }
+    /*===========================CAJA COMENTARIOS======================*/
+    #caja-comentarios .caja{
+        font-size: 20px;
+    }
+    /*===========================RESULTADOS============================*/
+    #resultados{
+        margin-top: 7%;
+    }
+    #resultados .pendientes{
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: 20%;
+    }
+    #resultados button{
+        font-size: 20px;
+    }
+    #resultados .calificacion{
+        font-size: 20px;
+    }
+    #resultados .nota p{
+        margin-top: 7%;
+    }
+    #resultados .nota{
+        height: 20vh;
+        margin-top: 15%;
+    }
+    #resultados{
+        display: grid;
+        grid-template-columns: 40% 10% 40%;
+    }
+    #resultados hr{
+        -webkit-transform: rotate(0deg);
+        width: 0;
+        margin-left: 50%;
+    }
+    #resultados .calificacion p{
+        margin-top: 0;
+    }
+    #resultados .pendientes button{
+        margin-top: 20%;
+    }
+}
+
+/* =========================================EMOCIONES================================= */
+/*Barra Lateral*/
+.aside {
+    grid-area: aside;
+    display: grid;
+    grid-template-rows: 0.7fr 1.3fr;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.foto{
+    margin-top: 20px;
+    margin: auto;
+    background-color: #ffffff;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.retrato{
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.retrato2{
+    height:80px;
+    width:120px;
+    background-color: black;
+    border-radius: 400px 400px 150px 150px;    
+    margin: auto;
+}
+
+.textoLateral{
+    margin: auto;
+    margin-top: 0px;
+    
+}
+
+.padtop{
+    padding-top: 30px;
+}
+
+/*Título*/
+
+
+/*Contenido Principal*/
+.Main {
+    grid-area: Main;
+    
+}
+/*==============================DESAGRADO=====================================================================*/
+.aside{
+    display: none;
+}
+#desagrado{
+    margin: 10px;
+    margin-top: 10%;
+}
+#desagrado h3{
+    text-align: center;
+}
+#desagrado .grafica{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 30px solid #69BF97;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+#desagrado .grafica p{
+    padding-top: 40%;
+}
+.text {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+/* ===================================MIEDO================================ */
+#miedo .grafica {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #D9D9D9;
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 7%;
+}
+#miedo h3{
+    text-align: center;
+    margin-top: 7%;
+}
+#miedo p{
+    padding-top: 10%;
+}
+#miedo .contenido{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 7%;
+}
+#miedo .porcentaje p{
+    text-align: center;
+}
+/*====================================TABLET=============================*/
+
+@media (min-width: 768px){
+    .container {
+        height: 969px;
+        display: grid;
+        grid-template-columns: 0.3fr 1.6fr;
+        grid-template-rows: 0fr ;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:"aside header" "aside Main";
+    }
+    .aside{
+        display: block;
+    }
+    /*==============================DESAGRADO============================*/
+    #desagrado .grafica{
+        width: 125px;
+        height: 125px;
+    }
+    /*================================MIEDO============================*/
+    #miedo .grafica {
+        border-left: 65px solid transparent;
+        border-right: 65px solid transparent;
+        border-bottom: 105px solid #D9D9D9;
+    }
+    #miedo .contenido{
+        width: 150px;
+        height: 40px;
+    }
+}
+/*================================DESKTOP================================*/
+@media (min-width: 1024px){
+    /*==============================DESAGRADO============================*/
+    #desagrado .grafica{
+        width: 150px;
+        height: 150px;
+    }
+    /*================================MIEDO============================*/
+    #miedo .grafica {
+        border-left: 90px solid transparent;
+        border-right: 90px solid transparent;
+        border-bottom: 130px solid #D9D9D9;
+    }
+    #miedo .contenido{
+        width: 200px;
+        height: 40px;
+    }
 }
