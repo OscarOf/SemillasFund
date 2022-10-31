@@ -89,6 +89,7 @@
 /*Contenido Principal*/
 .Main {
     grid-area: Main;
+    margin-top: 10%;
     font-family: 'Dosis', sans-serif;
     font-family: 'Work Sans', sans-serif;
     
@@ -356,8 +357,7 @@ button:hover{
         position: absolute;
         width: 100%;
     }
-    
-  
+
     /*==============================DESAGRADO============================*/
     #desagrado .grafica{
         width: 125px;
