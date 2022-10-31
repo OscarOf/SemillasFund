@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 /*Barra Lateral*/
 .aside {
@@ -174,6 +178,9 @@ button:hover{
 
 /*=================================TABLET===============================*/
 @media (min-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     button{
         width: 20vw;
         height: 5vh;
@@ -207,6 +214,11 @@ button:hover{
 }
 /*=============================DESKTOP=================================*/
 @media (min-width: 1024px){
+
+    body{
+        overflow-x: hidden;
+    }
+   
     button{
         width: 25vw;
         height: 5vh;
