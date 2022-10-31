@@ -89,6 +89,9 @@
 /*Contenido Principal*/
 .Main {
     grid-area: Main;
+    margin-top: 10%;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     
 }
 /*===================================================================================================================================*/
@@ -337,9 +340,24 @@ button:hover{
         grid-auto-flow: row;
         grid-template-areas:"aside header" "aside Main";
     }
-    /*.aside{
+
+    .flecha{
+        display: none;
+    }
+
+    .eti{
         display: block;
     }
+
+    .clik:checked + .aside{
+        display: none;    
+    }
+
+    .clik:checked + .aside ~.header{
+        position: absolute;
+        width: 100%;
+    }
+
     /*==============================DESAGRADO============================*/
     #desagrado .grafica{
         width: 125px;
