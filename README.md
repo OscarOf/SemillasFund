@@ -46,6 +46,7 @@ En la lista de la sección inferior se utilizó íconos de windows por su varied
  
  # Responsive
  Para la implementación de la web responsive utilizamos un label que embebia el ícono izquierdo del header, el cual estaba enlazado mediante un for, a su vez este llevaba el  id de a un input checkbox, esta etiqueta se encontraba en la parte superior de la barra lateral.
+ 
  ![image](https://user-images.githubusercontent.com/114504563/199050082-e40b62ad-d621-44c7-a327-9a6ff72551b6.png)
  
  Checkbox:
