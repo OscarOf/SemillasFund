@@ -40,12 +40,22 @@ En la lista de la sección inferior se utilizó íconos de windows por su varied
  
  ![image](https://user-images.githubusercontent.com/114504563/199041585-edab6667-3aa3-4eb0-a517-b3472937defd.png)
 
- Al igual que en la barra lateral se utilizó un ícono de Windows, el cual fue embebido por una etiqueta <p>.
+ Al igual que en la barra lateral se utilizó un ícono de Windows, el cual fue embebido por una etiqueta "< p >".
  
  ![image](https://user-images.githubusercontent.com/114504563/199042850-c3b0d845-f25d-4b30-ad1d-a57e9def584d.png)
  
  # Responsive
- Para la implementación de la web responsive utilizamos un label que embebia el ícono izquierdo del header 
+ Para la implementación de la web responsive utilizamos un label que embebia el ícono izquierdo del header, el cual estaba enlazado mediante un for, a su vez este llevaba el  id de a un input checkbox, esta etiqueta se encontraba en la parte superior de la barra lateral.
  ![image](https://user-images.githubusercontent.com/114504563/199050082-e40b62ad-d621-44c7-a327-9a6ff72551b6.png)
+ 
+ Checkbox:
+ 
+ ![image](https://user-images.githubusercontent.com/114504563/199058102-11b0270f-ddbc-4ff8-9b5f-02df357fadd3.png)
+
+ Al aplicar propiedades de Css como display: none, al accionar el checkbox(ícono izquierdo, Header), se ocultaba la barra lateral y el resto de contenido tomaba el campo sobrante.
+ 
+ ![image](https://user-images.githubusercontent.com/114504563/199058974-155cc824-f31c-4e6a-87a6-824441d83bee.png)
+
+Esta implementación se utiliza en las dos medidas responsive (768px y 320px).
 
 
