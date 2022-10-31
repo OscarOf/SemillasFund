@@ -96,6 +96,7 @@ body{
     margin-top: 10%;
     font-family: 'Dosis', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
     
 }
 /*===================================================================================================================================*/
@@ -310,6 +311,7 @@ button:hover{
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
+    font-size: 20px;
 }
 /* ===================================MIEDO================================ */
 #miedo .grafica {
