@@ -36,7 +36,7 @@ body{
 
 /*Animaciones*/
 .foto:hover{
-        background-color: #69BF97;
+        background-color: black;
         transition: background-color 2s;
 }
 
