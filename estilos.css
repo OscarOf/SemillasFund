@@ -16,7 +16,13 @@ body{
     color: white;
     font-family: 'Dosis', sans-serif;
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.5em;   
+}
+
+/*Animaciones*/
+.aside:hover{
+    background-color: #69BF97;
+    transition: background-color 2s;
 }
 
 .foto{
@@ -28,6 +34,12 @@ body{
     border-radius: 50%;
 }
 
+/*Animaciones*/
+.foto:hover{
+        background-color: #69BF97;
+        transition: background-color 2s;
+}
+
 .retrato{
     height: 80px;
     width: 80px;
@@ -37,12 +49,24 @@ body{
     margin-top: 10px;
 }
 
+/*Animaciones*/
+.retrato:hover{
+    background-color: white;
+    transition: background-color 2s;
+}
+
 .retrato2{
     height:80px;
     width:120px;
     background-color: black;
     border-radius: 400px 400px 150px 150px;
     margin: auto;
+}
+
+/*Animaciones*/
+.retrato2:hover{
+    background-color: white;
+    transition: background-color 2s;    
 }
 
 .textoLateral{
