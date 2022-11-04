@@ -38,6 +38,10 @@
 .progress{
     background-color: #D9D9D9;
     width:70%;
+    animation-name: progress;
+    animation: progress 6s;
+    animation-iteration-count: 6;
+
 }
 .progress-bar{
     background-color: rgb(125, 184, 138);
@@ -58,6 +62,8 @@ section{
     justify-content: center;
     position: relative;
     margin-bottom: 10px;
+    animation: progress 6s;
+    animation-iteration-count: 6;
 }
 .progress2{
     background-color: rgb(125, 184, 138);
@@ -201,3 +207,21 @@ section{
         height: 26px;
     }
 }
+
+@keyframes progress {
+    from{
+        transform: translateX(0);
+    }/* Estado inicial */
+    to{
+        transform: translateX(700px);
+    }/* Estado final */
+  }
+
+  @keyframes container2 {
+    from{
+        transform: translateX(0);
+    }/* Estado inicial */
+    to{
+        transform: translateX(-700px);
+    }/* Estado final */
+  }
