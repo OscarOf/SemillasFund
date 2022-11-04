@@ -322,12 +322,19 @@ button:hover{
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    border: 30px solid #69BF97;
+    border: 30px solid #d9d9d9;
     margin: auto;
     margin-top: 7%;
     margin-bottom: 7%;
     text-align: center;
 }
+
+#desagrado .grafica:hover{
+    -webkit-animation: animacion 2s linear ;
+    animation: animacion 2s linear ;
+    animation-fill-mode: forwards;
+}
+
 #desagrado .grafica p{
     padding-top: 40%;
 }
@@ -428,5 +435,18 @@ button:hover{
     #miedo .contenido{
         width: 200px;
         height: 40px;
+    }
+}
+
+@keyframes animacion{
+    0%{
+        transform: rotate(1turn);
+        border: 30px solid #D9D9D9;
+    }
+}
+@keyframes animacion{
+    100%{
+        transform: rotate(1turn);
+        border:30px solid #69BF97;
     }
 }
